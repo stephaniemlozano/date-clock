@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Quicksand:wght@300&family=Titan+One&display=swap');
+
+body {
+  background-color: #5d737e;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Titan One', cursive;
+  color: #64b6ac;
+}
+
+.date {
+  margin: 50px 25px;
+}
+
+.clock {
+  margin-bottom: 50px;
+}
+
+section {
+  margin: 50px;
+}
+
+section > p {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 30px;
+  color: #c0fdfb;
+}
+
+div {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#c0fdfb, #64b6ac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 50px;
+}
