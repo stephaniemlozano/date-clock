@@ -8,41 +8,63 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Quicksand:wght@300&family=Titan+One&display=swap');
 
+
 body {
   background-color: #5d737e;
   text-align: center;
 }
 
-h1,
-h2 {
+h1, h2 {
   font-family: 'Titan One', cursive;
   color: #64b6ac;
 }
 
 .date {
   margin: 50px 25px;
+  background: -webkit-linear-gradient(#c0fdfb, #64b6ac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: none;
 }
 
 .clock {
   margin-bottom: 50px;
+  background: -webkit-linear-gradient(#c0fdfb, #64b6ac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: none;
 }
 
-section {
+article {
   margin: 50px;
 }
 
-section > p {
+@media (max-width: 1200px) {
+  iframe {
+    width: 100%;
+  }
+}
+
+.flex-videos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+
+article > p {
   font-family: 'Cedarville Cursive', cursive;
   font-size: 30px;
   color: #c0fdfb;
 }
 
-div {
+section {
   font-family: 'Quicksand', sans-serif;
   font-size: 28px;
   font-weight: bold;
   background: -webkit-linear-gradient(#c0fdfb, #64b6ac);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: none;
   margin-bottom: 50px;
 }
